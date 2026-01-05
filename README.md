@@ -1,5 +1,5 @@
 # Desafio Meus Mapas
-Sistema web desenvolvido como parte de um **teste técnico para a NerdMonster**, com o objetivo de permitir a criação de mapas lógicos e o cadastro de pontos físicos associados a esses mapas.
+Sistema web desenvolvido como parte de um **teste técnico para a NerdMonster Digital Retail**, com o objetivo de permitir a criação de mapas lógicos e o cadastro de pontos físicos associados a esses mapas.
 
 ---
 
