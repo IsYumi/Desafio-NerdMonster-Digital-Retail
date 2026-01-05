@@ -65,7 +65,7 @@ Antes de executar o projeto, certifique-se de ter instalado:
 ## Como Utilizar a Aplicação
 
 ### Usuário de Demonstração
-Usuário de demonstração já está disponível:
+Usuário de demonstração disponível:
 - **E-mail:** teste@teste.com  
 - **Senha:** 1234
 
