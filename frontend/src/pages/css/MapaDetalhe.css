@@ -1,0 +1,277 @@
+.detalhe {
+  min-height: calc(100vh - 64px);
+  padding: 24px 16px;
+  display: flex;
+  justify-content: center;
+  font-family: Arial, sans-serif;
+  background: #fff;
+}
+
+.detalhe_container {
+  width: 1000px;
+  max-width: 100%;
+}
+
+.detalhe_topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+
+.detalhe_titulo {
+  margin: 0;
+  font-size: 26px;
+}
+
+.detalhe_sub {
+  margin: 10px 0 0;
+  opacity: 0.85;
+}
+
+.detalhe_botoes {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.detalhe_btn,
+.detalhe_btnDanger {
+  height: 36px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.detalhe_btn {
+  background: #dfdede;
+}
+
+.detalhe_btnDanger {
+  background: #f25e4e;
+  color: #fff;
+}
+
+.detalhe_grid {
+  display: grid;
+  grid-template-columns: 1.3fr 0.7fr;
+  gap: 14px;
+  align-items: start;
+}
+
+.detalhe_mapa {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.leaflet_box {
+  height: 420px;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.detalhe_instrucaoMapa {
+  margin: 10px 0 0;
+  opacity: 0.85;
+  font-size: 0.95rem;
+}
+
+.leaflet-pane,
+.leaflet-control,
+.leaflet-top,
+.leaflet-bottom {
+  z-index: 1;
+}
+
+.detalhe_lista {
+  background: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 14px;
+  padding: 12px;
+}
+
+.detalhe_listaTitulo {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.detalhe_ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.detalhe {
+  min-height: calc(100vh - 64px);
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  width: 100%;
+}
+
+.detalhe_container {
+  width: min(1000px, 100%);
+  margin: 0 auto;
+}
+
+.detalhe_nome {
+  font-size: 16px;
+}
+
+.detalhe_coord {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  font-size: 14px;
+  opacity: 0.9;
+}
+
+.detalhe_itemBtns {
+  margin-top: 8px;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.detalhe_btnPeq,
+.detalhe_btnPeqSecundario,
+.detalhe_btnPeqExcluir {
+  height: 34px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.detalhe_btnPeq {
+  background: #5e944d;
+  color: #fff;
+}
+
+.detalhe_btnPeqExcluir {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.detalhe_btnPeqSecundario {
+  background: #e5e5e5;
+}
+
+.detalhe_input {
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  outline: none;
+}
+
+.modal_overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.45);
+  z-index: 999999;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 16px;
+}
+
+.modal_box {
+  width: 520px;
+  max-width: 92vw;
+  max-height: 85vh;
+  overflow: auto;
+
+  background: #fff;
+  border-radius: 16px;
+  padding: 18px;
+
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.25);
+}
+
+.modal_titulo {
+  margin: 0 0 10px 0;
+  font-size: 18px;
+}
+
+.modal_form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.modal_label {
+  font-size: 14px;
+  opacity: 0.85;
+}
+
+.modal_input {
+  height: 38px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.modal_coords {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.modal_botoes {
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.modal_btn,
+.modal_btnSecundario {
+  height: 36px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.modal_btn {
+  background: #00aff4;
+}
+
+.modal_btnSecundario {
+  background: #e5e5e5;
+}
+
+@media (max-width: 860px) {
+  .detalhe_grid {
+    grid-template-columns: 1fr;
+  }
+
+  .leaflet_box {
+    height: 360px;
+  }
+}
+
+@media (max-width: 520px) {
+  .modal_coords {
+    grid-template-columns: 1fr;
+  }
+}

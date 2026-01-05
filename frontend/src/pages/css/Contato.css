@@ -1,0 +1,133 @@
+.contato {
+  flex: 1;
+  width: 100%;
+
+  padding: 36px 16px 56px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contato_esquerda {
+  flex: 1;
+}
+
+.contato_direita {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  max-width: 20%;
+  img {
+    width: 120px;
+    height: auto;
+    padding-top: 120%;
+  }
+}
+
+.contato_container {
+  flex: 1;
+  display: flex;
+
+  width: min(800px, 100%);
+}
+
+.contato_titulo {
+  margin: 0 0 10px 6px;
+  font-size: 36px;
+  font-weight: 700;
+  font-family: Cambria;
+  text-align: left;
+}
+
+.contato_card {
+  background: #ffc444;
+  border-radius: 14px;
+  padding: 20px;
+}
+
+.contato_form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  color: #1b1b1b;
+  font-family: Calibri;
+}
+
+.contato_campo {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.contato_label {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.contato_input,
+.contato_textarea {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  background: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.contato_input {
+  height: 40px;
+  padding: 0 12px;
+}
+
+.contato_textarea {
+  min-height: 100px;
+  resize: none;
+  padding: 10px 12px;
+}
+
+.contato_acoes {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contato_btn {
+  width: 120px;
+  height: 40px;
+
+  border: 0;
+  border-radius: 12px;
+  cursor: pointer;
+
+  background: #eaeaea;
+  color: #000;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.contato_btn:hover {
+  filter: brightness(0.96);
+}
+
+@media (max-width: 700px) {
+  .contato_direita {
+    display: none;
+  }
+  .contato {
+    padding: 22px 12px 44px;
+  }
+
+  .contato_card {
+    padding: 16px;
+  }
+
+  .contato_titulo {
+    margin-left: 0;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .contato_acoes {
+    justify-content: center;
+  }
+}
