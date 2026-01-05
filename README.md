@@ -18,7 +18,8 @@ O **Meus Mapas** é um sistema simples de gerenciamento de mapas e pontos geogr�
   Contém:
   - Nome do ponto
   - Latitude
-  - Longitude  
+  - Longitude
+
   Cada ponto pertence obrigatoriamente a um único mapa.
   
 ---
@@ -26,6 +27,7 @@ O **Meus Mapas** é um sistema simples de gerenciamento de mapas e pontos geogr�
 
 Protótipo visual do sistema:  
 https://www.figma.com/design/dSuQFpWuaju8snnV8nM3Ev/Sem-t%C3%ADtulo?node-id=0-1&t=17hbXHoZ47CwDE9O-1
+
 ## Tecnologias Utilizadas
 
 ### Backend
@@ -115,41 +117,41 @@ npm run dev
 
 ## Estrutura do Projeto
 
-Meus_Mapas/
-├── backend/
-│   ├── node_modules/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── controllers/
-│   │   ├── db/
-│   │   ├── middleware/
-│   │   ├── routes/
-│   │   ├── utils/
-│   │   ├── app.js
-│   │   └── server.js
-│   ├── .env
-│   ├── .dockerignore
-│   ├── database.db
-│   ├── Dockerfile
-│   └── package.json
-│
-├── frontend/
-│   ├── node_modules/
-│   ├── public/
-│   ├── src/
-│   │   ├── assets/
-│   │   ├── pages/
-│   │   ├── App.jsx
-│   │   ├── main.jsx
-│   │   └── index.css
-│   ├── .dockerignore
-│   ├── Dockerfile
-│   ├── eslint.config.js
-│   ├── package.json
-│   └── vite.config.js
-│
-├── docker-compose.yml
-└── README.md
+Meus_Mapas/  
+├── backend/  
+│   ├── node_modules/  
+│   ├── src/  
+│   │   ├── assets/  
+│   │   ├── controllers/  
+│   │   ├── db/  
+│   │   ├── middleware/  
+│   │   ├── routes/  
+│   │   ├── utils/  
+│   │   ├── app.js  
+│   │   └── server.js  
+│   ├── .env  
+│   ├── .dockerignore  
+│   ├── database.db  
+│   ├── Dockerfile  
+│   └── package.json  
+│  
+├── frontend/  
+│   ├── node_modules/  
+│   ├── public/  
+│   ├── src/  
+│   │   ├── assets/  
+│   │   ├── pages/  
+│   │   ├── App.jsx  
+│   │   ├── main.jsx  
+│   │   └── index.css  
+│   ├── .dockerignore  
+│   ├── Dockerfile  
+│   ├── eslint.config.js  
+│   ├── package.json  
+│   └── vite.config.js  
+│  
+├── docker-compose.yml  
+└── README.md  
 
 ---
 
